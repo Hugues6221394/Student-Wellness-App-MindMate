@@ -1,4 +1,4 @@
-# 🧠 Mind Mate – Mental Wellness Companion App
+# 🧠 Mind Mate – Student Mental Wellness Companion App
 **A Flutter-Based Offline Solution for Student Well-Being**
 
 ![Banner](https://img.shields.io/badge/Flutter-3.3.0-blue?style=for-the-badge&logo=flutter)
@@ -90,12 +90,38 @@ lib/
 ### 🏃 Clone & Run
 
 ```bash
-git clone https://github.com/hugues6221394/Mental-Wellness-App.git
-cd mind_mate
+git clone https://github.com/hugues6221394/Student-Wellness-App-MindMate.git
+cd Student_Wellness_App
 flutter pub get
 flutter pub run build_runner build --delete-conflicting-outputs
 flutter run
 ```
+
+## 📐 Visual Design & Architecture
+
+### 📍 App Flow
+
+```mermaid
+graph TD
+A[Home Screen] --> B[Mood Tracker]
+A --> C[Journal]
+A --> D[Peer Chat]
+A --> E[Meditation]
+A --> F[Emergency]
+```
+
+### 🧱 Data Storage & Flow
+
+```mermaid
+graph TD
+A[User Input]
+--> B[Hive DB]
+--> C[Data Models]
+--> D[Repositories]
+--> E[UI Layer]
+```
+
+---
 
 ---
 
@@ -152,35 +178,9 @@ flutter run
 
 | 🔗 Direct Download                                                                                                                                                                                      | 📱 QR Code                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](https://github.com/Hugues6221394/Mental-Wellness-App/releases/download/v1.0.0/app-release.apk) | <img src="screenshots/mind_mate_apk_qr.png" width="160"/>
+| [![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](https://github.com/Hugues6221394/Student-Wellness-App-MindMate/releases/download/v1.0.0/app-release.apk) | <img src="screenshots/mind_mate_apk_qr.png" width="160"/>
 
 > Simply scan the QR code with your phone to download the APK directly.
-
----
-
-## 📐 Visual Design & Architecture
-
-### 📍 App Flow
-
-```mermaid
-graph TD
-A[Home Screen] --> B[Mood Tracker]
-A --> C[Journal]
-A --> D[Peer Chat]
-A --> E[Meditation]
-A --> F[Emergency]
-```
-
-### 🧱 Data Storage & Flow
-
-```mermaid
-graph TD
-A[User Input]
---> B[Hive DB]
---> C[Data Models]
---> D[Repositories]
---> E[UI Layer]
-```
 
 ---
 
@@ -242,7 +242,3 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 > 🧘 *“Mental health is not a destination, but a process. It’s about how you drive, not where you’re going.”*
 > — **Noam Shpancer**
-
-
-
->>>>>>> 0920fef (Initial commit of Student Wellness App)
