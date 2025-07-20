@@ -119,12 +119,13 @@ flutter run
 <p align="center">
   <img src="screenshots/chat3.jpg" width="250"/>
   <img src="screenshots/chat4.jpg" width="250"/>
-  <img src="screenshots/meditation1.jpg" width="250"/>
+  <img src="screenshots/meditations.jpg" width="250"/>
 </p>
 <p align="center">
+      <img src="screenshots/meditation_history.jpg" width="250"/>
   <img src="screenshots/meditation2.jpg" width="250"/>
-  <img src="screenshots/meditations.jpg" width="250"/>
-  <img src="screenshots/meditation_history.jpg" width="250"/>
+  <img src="screenshots/meditation1.jpg" width="250"/>
+
 </p>
 <p align="center">
   <img src="screenshots/emergency1.jpg" width="250"/>
