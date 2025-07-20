@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Student-Wellness-App-Mind-Mate-
-=======
 # 🧠 Mind Mate – Mental Wellness Companion App
 **A Flutter-Based Offline Solution for Student Well-Being**
 
@@ -22,7 +19,7 @@ Built using **Flutter**, with **Hive for local data storage**, the app allows st
 
 ### 🎨 UI/UX Design Highlights
 
-Each page in **Mind Mate** uses a **distinct color theme** aligned with its purpose, for example, calming dark purples in meditation, warm blues in mood tracking, and pure purple shades in journaling to keep users engaged and emotionally connected.
+Each page in **Mind Mate** uses a **distinct color theme** aligned with its purpose, for example, calming dark green in meditation, warm green in mood tracking, and pure green and white shades in journaling to keep users engaged and emotionally connected.
 Smooth **animations** enhance user interaction, making transitions feel natural and fluid.
 The app also supports both **light and dark themes**, providing an optimal visual experience in any environment. This thoughtful design ensures that users feel a fresh, engaging vibe each time they open the app. and I didn't forget that red on emergency page is a symbolic shade of urgency.
 
@@ -106,23 +103,46 @@ flutter run
 
 <p align="center">
   <img src="screenshots/home.jpg" width="250"/>
-    <img src="screenshots/dashboard.jpg" width="250"/>
-  <img src="screenshots/white-home.png" width="250", length="300"/>
+  <img src="screenshots/home1.jpg" width="250"/>
+  <img src="screenshots/mainmenu.jpg" width="250"/>
 </p>
 <p align="center">
   <img src="screenshots/mood.jpg" width="250"/>
-  <img src="screenshots/mood 2.jpg" width="250"/>
-  <img src="screenshots/mood 3.jpg" width="250"/>
-</p>
-<p align="center">
+  <img src="screenshots/mood_histroy.jpg" width="250"/>
   <img src="screenshots/journal.jpg" width="250"/>
-  <img src="screenshots/journal 2.jpg" width="250"/>
-  <img src="screenshots/chat.jpg" width="250"/>
 </p>
 <p align="center">
-  <img src="screenshots/meditation.jpg" width="250"/>
-  <img src="screenshots/emergency.jpg" width="250"/>
-  <img src="screenshots/slide 2.jpg" width="250"/>
+  <img src="screenshots/journal1.jpg" width="250"/>
+  <img src="screenshots/chat.jpg" width="250"/>
+  <img src="screenshots/chatt2.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="screenshots/chat3.jpg" width="250"/>
+  <img src="screenshots/chat4.jpg" width="250"/>
+  <img src="screenshots/meditation1.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="screenshots/meditation2.jpg" width="250"/>
+  <img src="screenshots/meditations.jpg" width="250"/>
+  <img src="screenshots/meditation_history.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="screenshots/emergency1.jpg" width="250"/>
+  <img src="screenshots/call.jpg" width="250"/>
+  <img src="screenshots/guideliness.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="screenshots/performance analytics.jpg" width="250"/>
+  <img src="screenshots/performance analytics1.jpg" width="250"/>
+  <img src="screenshots/profile1.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="screenshots/profilemanagement.jpg" width="250"/>
+  <img src="screenshots/settings.jpg" width="250"/>
+  <img src="screenshots/settings1.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="screenshots/theme.jpg" width="250"/>
 </p>
 
 ---
@@ -131,7 +151,7 @@ flutter run
 
 | 🔗 Direct Download                                                                                                                                                                                      | 📱 QR Code                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge\&logo=android)](https://github.com/Hugues6221394/Mental-Wellness-App/releases/download/v1.0.0/MindMate_v1.0.0.apk) | <img src="screenshots/mind_mate_apk_qr.png" width="160"/> |
+| [![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](https://github.com/Hugues6221394/Mental-Wellness-App/releases/download/v1.0.0/app-release.apk) | <img src="screenshots/mind_mate_apk_qr.png" width="160"/>
 
 > Simply scan the QR code with your phone to download the APK directly.
 
