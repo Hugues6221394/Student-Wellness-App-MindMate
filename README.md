@@ -17,16 +17,6 @@
 **Mind Mate** is a **secure, offline-first mental wellness app** for university students.  
 Built using **Flutter**, with **Hive for local data storage**, the app allows students to:
 
-### 🎨 UI/UX Design Highlights
-
-Each page in **Mind Mate** uses a **distinct color theme** aligned with its purpose, for example, calming dark green in meditation, warm green in mood tracking, and pure green and white shades in journaling to keep users engaged and emotionally connected.
-Smooth **animations** enhance user interaction, making transitions feel natural and fluid.
-The app also supports both **light and dark themes**, providing an optimal visual experience in any environment. This thoughtful design ensures that users feel a fresh, engaging vibe each time they open the app. and I didn't forget that red on emergency page is a symbolic shade of urgency.
-
-All **without needing internet access**.
-
-> 🎯 _A perfect digital companion for improving mental wellness and self-care._
-
 ---
 
 ## ✨ Key Features
@@ -42,6 +32,16 @@ All **without needing internet access**.
 | 🆘 **Emergency Support**    | One-tap call buttons to university mental health support (offline hardcoded)    | `url_launcher`        |
 
 ---
+
+### 🎨 UI/UX Design Highlights
+
+Each page in **Mind Mate** uses a **distinct color theme** aligned with its purpose, for example, calming dark green in meditation, warm green in mood tracking, and pure green and white shades in journaling to keep users engaged and emotionally connected.
+Smooth **animations** enhance user interaction, making transitions feel natural and fluid.
+The app also supports both **light and dark themes**, providing an optimal visual experience in any environment. This thoughtful design ensures that users feel a fresh, engaging vibe each time they open the app. and I didn't forget that red on emergency page is a symbolic shade of urgency.
+
+All **without needing internet access**.
+
+> 🎯 _A perfect digital companion for improving mental wellness and self-care._
 
 ## 📊 Technical Highlights
 
@@ -61,19 +61,13 @@ All **without needing internet access**.
 
 ```bash
 lib/
-├── core/               # App-wide utilities
-│   ├── theme/          # Material3 theming
-│   └── constants/      # Routes, strings, etc.
-├── data/               # Data layer
-│   ├── models/         # Hive adapters
-│   └── repositories/   # Local data sources
-├── domain/             # Business logic
-│   ├── entities/       # Pure Dart classes
-│   └── use_cases/      # Feature-specific logic
-└── presentation/       # UI layer
-    ├── pages/          # Feature screens
-    ├── widgets/        # Reusable components
-    └── providers/      # State management
+├── models/               # Hive adapters
+├── providers/            #State management
+├── screens/              # Feature screens and UI layer
+│   ├── auth/     
+│   └── profile/     
+└── services/      
+├── theme/ 
 ````
 
 ---
@@ -205,7 +199,7 @@ A[User Input]
 | Well-Documented `README.md`                 | ✅ Done     |
 | GitHub Source Code with Clean Structure     | ✅ Done     |
 | APK Included in Repository                  | ✅ Done     |
-| Presentation Slides (Optional)              | ✅ Optional |
+| Presentation Slides (Optional)              | ✅ Done |
 | Animations / UI Enhancements (Bonus +5%)    | ✅ Done     |
 | Extra Features (Chat Simulation, AES) (+5%) | ✅ Done     |
 | Performance Optimizations (+5%)             | ✅ Done     |
